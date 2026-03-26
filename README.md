@@ -19,8 +19,8 @@ A production-ready Spring Boot 3.x REST API for tracking employee performance re
 # Run with PostgreSQL
 ./mvnw spring-boot:run -Dspring-boot.run.profiles=postgres
 
-# Run tests
-./mvnw clean test
+# Run with Docker
+docker-compose up --build
 ```
 
 Swagger UI: [http://localhost:8181/swagger-ui.html](http://localhost:8181/swagger-ui.html)
